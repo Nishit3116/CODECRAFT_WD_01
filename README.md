@@ -1,52 +1,92 @@
-# Nishit Savaliya - Portfolio Website
+# 📱 Portfolio Website (Responsive Design)
 
-A simple and modern portfolio website built with HTML, CSS, and JavaScript.
+A modern and responsive **Portfolio Website** built with **HTML5**, **CSS3**, and **JavaScript**. It showcases a clean, professional design with smooth animations and mobile-first approach for web developers to present their skills and projects.
 
-## Features
+## 🔗 Live Demo
 
-- Responsive design
-- Modern dark theme
-- Contact form
-- Project showcase
-- Mobile-friendly
+• [Portfolio Website](https://nishit3116.github.io/CODECRAFT_WD_01)
 
-## Technologies Used
+## 📸 Project Demo
 
-- HTML5
-- CSS3
-- JavaScript
-- Font Awesome Icons
+### Desktop View - Homepage
+![Portfolio Desktop Screenshot 1](./images/portfolio-desktop-1.png)
+*Clean and modern homepage design*
 
-## Getting Started
+### Desktop View - Full Portfolio
+![Portfolio Desktop Screenshot 2](./images/portfolio-desktop-2.png)
+*Complete portfolio showcase with all sections*
 
-1. Download the project files
-2. Open `index.html` in your browser
-3. Customize with your information
+## ✨ Features
 
-## Project Structure
+• 📱 **Fully responsive design** - Works on all devices  
+• 🎨 **Modern dark theme** with smooth animations  
+• 🚀 **Fast loading** and optimized performance  
+• 📧 **Contact form** with form validation  
+• 💼 **Project showcase** with interactive cards  
+• 🔍 **SEO optimized** with meta tags  
+• ⚡ **Smooth scrolling** navigation  
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+• 🌐 HTML5  
+• 🎨 CSS3  
+• ⚡ Vanilla JavaScript  
+
+**Design:**
+• 🎯 Font Awesome Icons  
+• 🔤 Google Fonts (Inter)  
+• 📱 Mobile-First Responsive Design  
+
+## 🚀 Installation
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Nishit3116/CODECRAFT_WD_01.git
+cd CODECRAFT_WD_01
+```
+
+### 2. Open in Browser
+
+```bash
+# Simply open index.html in your browser
+# Or use live server in VS Code
+```
+
+### 3. Customize Content
+
+> Make sure to update your personal information in `index.html` and add your own images in the `images/` folder.
+
+## 📁 Project Structure
 
 ```
-portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
+CODECRAFT_WD_01/
+├── 📄 index.html          # Main HTML file
+├── 🎨 style.css           # CSS styling
+├── ⚡ script.js           # JavaScript functionality
+├── 📁 images/             # Image assets
+│   ├── 🖼️ image.png       # Profile image
+│   ├── 📸 portfolio-desktop-1.png
+│   └── 📸 portfolio-desktop-2.png
+├── 📋 package.json        # Project metadata
+└── 📖 README.md           # Project documentation
 ```
 
-## Customization
+## 🚀 Deployment Info
 
-- Update personal information in `index.html`
-- Replace images in `images/` folder
-- Modify colors in `style.css`
-- Add your projects and skills
+• 🌐 **Frontend**: Deployed on GitHub Pages  
+• 📱 **Responsive**: Works on all screen sizes  
+• ⚡ **Performance**: Optimized for fast loading  
 
-## Contact
+## 👨‍💻 Author
 
-- Email: nishitsavaliya7@gmail.com
-- GitHub: [@Nishit3116](https://github.com/Nishit3116)
-- LinkedIn: [Nishit Savaliya](https://www.linkedin.com/in/gecdhd-comp-nishit-savaliya)
+Built with ❤️ by [Nishit Savaliya](https://github.com/Nishit3116)
 
-## License
+## 📄 License
 
-This project is open source.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+⭐ **Star this repo** if you found it helpful!
