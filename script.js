@@ -171,7 +171,7 @@ document.querySelectorAll('.project-card').forEach(card => {
         card.style.transform = 'translateY(0) scale(1)';
     });
     
-    // Add click functionality for "Coming Soon" modal
+    // Add click functionality
     card.addEventListener('click', (e) => {
         // Don't trigger if clicking on project links (they have their own functionality)
         if (e.target.closest('.project-links')) {
@@ -181,7 +181,14 @@ document.querySelectorAll('.project-card').forEach(card => {
         // Get the project title
         const projectTitle = card.querySelector('h3').textContent;
         
-        // Create and show the "Coming Soon" modal
+        // Check if this is the QUANTUM STOPWATCH project
+        if (projectTitle === 'QUANTUM STOPWATCH') {
+            // Direct link to the project
+            window.open('https://nishit3116.github.io/CODECRAFT_WD_02/', '_blank');
+            return;
+        }
+        
+        // For other projects, show the "Coming Soon" modal
         showComingSoonModal(projectTitle);
     });
 });
