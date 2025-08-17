@@ -177,17 +177,18 @@ document.querySelectorAll('.project-card').forEach(card => {
         if (e.target.closest('.project-links')) {
             return;
         }
-        
         // Get the project title
         const projectTitle = card.querySelector('h3').textContent;
-        
-        // Check if this is the QUANTUM STOPWATCH project
+        // Direct link for QUANTUM STOPWATCH
         if (projectTitle === 'QUANTUM STOPWATCH') {
-            // Direct link to the project
             window.open('https://nishit3116.github.io/CODECRAFT_WD_02/', '_blank');
             return;
         }
-        
+        // Direct link for Tic-Tac-Toe
+        if (projectTitle === 'Tic-Tac-Toe') {
+            window.open('https://nishit3116.github.io/CODECRAFT_WD_03/', '_blank');
+            return;
+        }
         // For other projects, show the "Coming Soon" modal
         showComingSoonModal(projectTitle);
     });
